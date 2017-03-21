@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+mlx.h
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/mlx.h
+
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/main.c
+fdf.h
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+
