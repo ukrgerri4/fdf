@@ -1,11 +1,25 @@
-# include "fdf.h"
+#include "fdf.h"
+
+void    draw(t_ptr *ptr, t_map *map)
+{
+    char *line;
+
+    line = NULL;
+    while (get_next_line(0, &line))
+        fill_map(map, ft_strsplit(line, ' '));
+}
 
 int main(void)
 {
-    void *mlx;
+    t_map   *map;
+    t_ptr   *ptr;
 
-    mlx = mlx_init();
-    mlx_new_window(mlx, 400, 400, "fdf");
+    ptr = make_ptr_list();
+    map = make_map_list();
+    //ptr->mlx = mlx_init();
+    //ptr->win = mlx_new_window(ptr->mlx, 800, 800, "fdf");
 
-    mlx_loop(mlx);
+    draw(ptr, map);
+
+    //mlx_loop(ptr->mlx);
 }

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/ukrgerri4/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/ukrgerri4/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/2016/i/ikryvenk/ClionProjects/fdf
+CMAKE_SOURCE_DIR = /home/ukrgerri4/CLionProjects/fdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ukrgerri4/CLionProjects/fdf/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fdf.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/fdf.dir/flags.make
 
 CMakeFiles/fdf.dir/main.c.o: CMakeFiles/fdf.dir/flags.make
 CMakeFiles/fdf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fdf.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/main.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/fdf/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fdf.dir/main.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/main.c.o   -c /home/ukrgerri4/CLionProjects/fdf/main.c
 
 CMakeFiles/fdf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/fdf/main.c > CMakeFiles/fdf.dir/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/main.c > CMakeFiles/fdf.dir/main.c.i
 
 CMakeFiles/fdf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/fdf/main.c -o CMakeFiles/fdf.dir/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/main.c -o CMakeFiles/fdf.dir/main.c.s
 
 CMakeFiles/fdf.dir/main.c.o.requires:
 
@@ -81,17 +81,875 @@ CMakeFiles/fdf.dir/main.c.o.provides: CMakeFiles/fdf.dir/main.c.o.requires
 CMakeFiles/fdf.dir/main.c.o.provides.build: CMakeFiles/fdf.dir/main.c.o
 
 
+CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o: ../minilibx/mlx_clear_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_clear_window.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_clear_window.c > CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_clear_window.c -o CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o: ../minilibx/mlx_destroy_image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_image.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_image.c > CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_image.c -o CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o: ../minilibx/mlx_destroy_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_window.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_window.c > CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_window.c -o CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o: ../minilibx/mlx_expose_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_expose_hook.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_expose_hook.c > CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_expose_hook.c -o CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o: ../minilibx/mlx_flush_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_flush_event.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_flush_event.c > CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_flush_event.c -o CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o: ../minilibx/mlx_get_color_value.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_color_value.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_color_value.c > CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_color_value.c -o CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o: ../minilibx/mlx_get_data_addr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_data_addr.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_data_addr.c > CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_data_addr.c -o CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o: ../minilibx/mlx_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_hook.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_hook.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_hook.c > CMakeFiles/fdf.dir/minilibx/mlx_hook.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_hook.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_hook.c -o CMakeFiles/fdf.dir/minilibx/mlx_hook.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_init.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_init.c.o: ../minilibx/mlx_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_init.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_init.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_init.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_init.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_init.c > CMakeFiles/fdf.dir/minilibx/mlx_init.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_init.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_init.c -o CMakeFiles/fdf.dir/minilibx/mlx_init.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_init.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o: ../minilibx/mlx_int_anti_resize_win.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_anti_resize_win.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_anti_resize_win.c > CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_anti_resize_win.c -o CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o: ../minilibx/mlx_int_do_nothing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_do_nothing.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_do_nothing.c > CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_do_nothing.c -o CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o: ../minilibx/mlx_int_get_visual.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_get_visual.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_get_visual.c > CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_get_visual.c -o CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o: ../minilibx/mlx_int_param_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_param_event.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_param_event.c > CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_param_event.c -o CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o: ../minilibx/mlx_int_set_win_event_mask.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_set_win_event_mask.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_set_win_event_mask.c > CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_set_win_event_mask.c -o CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o: ../minilibx/mlx_int_str_to_wordtab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_str_to_wordtab.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_str_to_wordtab.c > CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_str_to_wordtab.c -o CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o: ../minilibx/mlx_int_wait_first_expose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_wait_first_expose.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_wait_first_expose.c > CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_wait_first_expose.c -o CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o: ../minilibx/mlx_key_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_key_hook.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_key_hook.c > CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_key_hook.c -o CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o: ../minilibx/mlx_lib_xpm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_lib_xpm.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_lib_xpm.c > CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_lib_xpm.c -o CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o: ../minilibx/mlx_loop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_loop.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop.c > CMakeFiles/fdf.dir/minilibx/mlx_loop.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_loop.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop.c -o CMakeFiles/fdf.dir/minilibx/mlx_loop.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o: ../minilibx/mlx_loop_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop_hook.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop_hook.c > CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop_hook.c -o CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o: ../minilibx/mlx_mouse_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_mouse_hook.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_mouse_hook.c > CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_mouse_hook.c -o CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o: ../minilibx/mlx_new_image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_image.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_image.c > CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_image.c -o CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o: ../minilibx/mlx_new_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_window.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_window.c > CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_window.c -o CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o: ../minilibx/mlx_pixel_put.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_pixel_put.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_pixel_put.c > CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_pixel_put.c -o CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o: ../minilibx/mlx_put_image_to_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_put_image_to_window.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_put_image_to_window.c > CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_put_image_to_window.c -o CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o: ../minilibx/mlx_rgb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_rgb.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_rgb.c > CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_rgb.c -o CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o: ../minilibx/mlx_string_put.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_string_put.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_string_put.c > CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_string_put.c -o CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o
+
+
+CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o: ../minilibx/mlx_xpm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o   -c /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_xpm.c
+
+CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_xpm.c > CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.i
+
+CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_xpm.c -o CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.s
+
+CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.requires
+
+CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.provides: CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.provides
+
+CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.provides.build: CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o
+
+
+CMakeFiles/fdf.dir/bresenham.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/bresenham.c.o: ../bresenham.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/fdf.dir/bresenham.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/bresenham.c.o   -c /home/ukrgerri4/CLionProjects/fdf/bresenham.c
+
+CMakeFiles/fdf.dir/bresenham.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/bresenham.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/bresenham.c > CMakeFiles/fdf.dir/bresenham.c.i
+
+CMakeFiles/fdf.dir/bresenham.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/bresenham.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/bresenham.c -o CMakeFiles/fdf.dir/bresenham.c.s
+
+CMakeFiles/fdf.dir/bresenham.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/bresenham.c.o.requires
+
+CMakeFiles/fdf.dir/bresenham.c.o.provides: CMakeFiles/fdf.dir/bresenham.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/bresenham.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/bresenham.c.o.provides
+
+CMakeFiles/fdf.dir/bresenham.c.o.provides.build: CMakeFiles/fdf.dir/bresenham.c.o
+
+
+CMakeFiles/fdf.dir/fun_map_ptr.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/fun_map_ptr.c.o: ../fun_map_ptr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/fdf.dir/fun_map_ptr.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/fun_map_ptr.c.o   -c /home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c
+
+CMakeFiles/fdf.dir/fun_map_ptr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/fun_map_ptr.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c > CMakeFiles/fdf.dir/fun_map_ptr.c.i
+
+CMakeFiles/fdf.dir/fun_map_ptr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/fun_map_ptr.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c -o CMakeFiles/fdf.dir/fun_map_ptr.c.s
+
+CMakeFiles/fdf.dir/fun_map_ptr.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/fun_map_ptr.c.o.requires
+
+CMakeFiles/fdf.dir/fun_map_ptr.c.o.provides: CMakeFiles/fdf.dir/fun_map_ptr.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/fun_map_ptr.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/fun_map_ptr.c.o.provides
+
+CMakeFiles/fdf.dir/fun_map_ptr.c.o.provides.build: CMakeFiles/fdf.dir/fun_map_ptr.c.o
+
+
+CMakeFiles/fdf.dir/fun_pix.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/fun_pix.c.o: ../fun_pix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/fdf.dir/fun_pix.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/fun_pix.c.o   -c /home/ukrgerri4/CLionProjects/fdf/fun_pix.c
+
+CMakeFiles/fdf.dir/fun_pix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/fun_pix.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/fun_pix.c > CMakeFiles/fdf.dir/fun_pix.c.i
+
+CMakeFiles/fdf.dir/fun_pix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/fun_pix.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/fun_pix.c -o CMakeFiles/fdf.dir/fun_pix.c.s
+
+CMakeFiles/fdf.dir/fun_pix.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/fun_pix.c.o.requires
+
+CMakeFiles/fdf.dir/fun_pix.c.o.provides: CMakeFiles/fdf.dir/fun_pix.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/fun_pix.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/fun_pix.c.o.provides
+
+CMakeFiles/fdf.dir/fun_pix.c.o.provides.build: CMakeFiles/fdf.dir/fun_pix.c.o
+
+
+CMakeFiles/fdf.dir/fill_map.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/fill_map.c.o: ../fill_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/fdf.dir/fill_map.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/fill_map.c.o   -c /home/ukrgerri4/CLionProjects/fdf/fill_map.c
+
+CMakeFiles/fdf.dir/fill_map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/fill_map.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/fill_map.c > CMakeFiles/fdf.dir/fill_map.c.i
+
+CMakeFiles/fdf.dir/fill_map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/fill_map.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/fill_map.c -o CMakeFiles/fdf.dir/fill_map.c.s
+
+CMakeFiles/fdf.dir/fill_map.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/fill_map.c.o.requires
+
+CMakeFiles/fdf.dir/fill_map.c.o.provides: CMakeFiles/fdf.dir/fill_map.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/fill_map.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/fill_map.c.o.provides
+
+CMakeFiles/fdf.dir/fill_map.c.o.provides.build: CMakeFiles/fdf.dir/fill_map.c.o
+
+
+CMakeFiles/fdf.dir/fun_general.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/fun_general.c.o: ../fun_general.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/fdf.dir/fun_general.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/fun_general.c.o   -c /home/ukrgerri4/CLionProjects/fdf/fun_general.c
+
+CMakeFiles/fdf.dir/fun_general.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/fun_general.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/fdf/fun_general.c > CMakeFiles/fdf.dir/fun_general.c.i
+
+CMakeFiles/fdf.dir/fun_general.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/fun_general.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/fdf/fun_general.c -o CMakeFiles/fdf.dir/fun_general.c.s
+
+CMakeFiles/fdf.dir/fun_general.c.o.requires:
+
+.PHONY : CMakeFiles/fdf.dir/fun_general.c.o.requires
+
+CMakeFiles/fdf.dir/fun_general.c.o.provides: CMakeFiles/fdf.dir/fun_general.c.o.requires
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/fun_general.c.o.provides.build
+.PHONY : CMakeFiles/fdf.dir/fun_general.c.o.provides
+
+CMakeFiles/fdf.dir/fun_general.c.o.provides.build: CMakeFiles/fdf.dir/fun_general.c.o
+
+
 # Object files for target fdf
 fdf_OBJECTS = \
-"CMakeFiles/fdf.dir/main.c.o"
+"CMakeFiles/fdf.dir/main.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_init.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o" \
+"CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o" \
+"CMakeFiles/fdf.dir/bresenham.c.o" \
+"CMakeFiles/fdf.dir/fun_map_ptr.c.o" \
+"CMakeFiles/fdf.dir/fun_pix.c.o" \
+"CMakeFiles/fdf.dir/fill_map.c.o" \
+"CMakeFiles/fdf.dir/fun_general.c.o"
 
 # External object files for target fdf
 fdf_EXTERNAL_OBJECTS =
 
 fdf: CMakeFiles/fdf.dir/main.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_init.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o
+fdf: CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o
+fdf: CMakeFiles/fdf.dir/bresenham.c.o
+fdf: CMakeFiles/fdf.dir/fun_map_ptr.c.o
+fdf: CMakeFiles/fdf.dir/fun_pix.c.o
+fdf: CMakeFiles/fdf.dir/fill_map.c.o
+fdf: CMakeFiles/fdf.dir/fun_general.c.o
 fdf: CMakeFiles/fdf.dir/build.make
 fdf: CMakeFiles/fdf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable fdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C executable fdf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fdf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +958,39 @@ CMakeFiles/fdf.dir/build: fdf
 .PHONY : CMakeFiles/fdf.dir/build
 
 CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/main.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_clear_window.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_destroy_image.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_destroy_window.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_expose_hook.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_flush_event.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_get_color_value.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_get_data_addr.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_hook.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_init.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_int_anti_resize_win.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_int_do_nothing.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_int_get_visual.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_int_param_event.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_int_set_win_event_mask.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_int_str_to_wordtab.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_int_wait_first_expose.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_key_hook.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_lib_xpm.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_loop.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_loop_hook.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_mouse_hook.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_new_image.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_new_window.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_pixel_put.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_put_image_to_window.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_rgb.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_string_put.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/minilibx/mlx_xpm.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/bresenham.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/fun_map_ptr.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/fun_pix.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/fill_map.c.o.requires
+CMakeFiles/fdf.dir/requires: CMakeFiles/fdf.dir/fun_general.c.o.requires
 
 .PHONY : CMakeFiles/fdf.dir/requires
 
@@ -108,6 +999,6 @@ CMakeFiles/fdf.dir/clean:
 .PHONY : CMakeFiles/fdf.dir/clean
 
 CMakeFiles/fdf.dir/depend:
-	cd /nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/2016/i/ikryvenk/ClionProjects/fdf /nfs/2016/i/ikryvenk/ClionProjects/fdf /nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug /nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug /nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ukrgerri4/CLionProjects/fdf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ukrgerri4/CLionProjects/fdf /home/ukrgerri4/CLionProjects/fdf /home/ukrgerri4/CLionProjects/fdf/cmake-build-debug /home/ukrgerri4/CLionProjects/fdf/cmake-build-debug /home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fdf.dir/depend
 
