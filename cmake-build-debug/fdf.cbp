@@ -8,197 +8,374 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft">
+				<Option output="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/libft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft/fast">
+				<Option output="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/libft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fdf">
-				<Option output="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option output="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fdf/fast">
-				<Option output="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option output="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/bresenham.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/bresenham.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fdf.h">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fill_map.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/fill_map.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_general.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_checkparam.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_checkparam_fun.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_p_numb.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_p_string.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_p_wput_count.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_p_wstring.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_p_wstring2.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_printf.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_printf.h">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_put_count.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_types.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_general.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_map_ptr.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_pix.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_pix.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/main.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_atoi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_bzero.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_forearr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_isalnum.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_isalpha.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_isascii.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_isdigit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_isprint.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_itoa.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_lstadd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_lstdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_lstdelone.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_lstiter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_lstmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_lstnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memalloc.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memccpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memmove.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_memset.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_power.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putarr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putchar.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putchar_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putendl.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putendl_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putnbr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putnbr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_putstr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strclr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strcount.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strdup.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_striter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_striteri.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strjoin.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strlcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strlen.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strmapi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strncat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strncmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strncpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strnequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strnstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strpbrk.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strrchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strsplit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strsub.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_strtrim.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_tolower.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/ft_toupper.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/get_next_line.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/get_next_line.h">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/main.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx.h">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_clear_window.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_image.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_destroy_window.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_expose_hook.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_flush_event.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_color_value.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_get_data_addr.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_hook.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_init.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int.h">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_anti_resize_win.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_do_nothing.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_get_visual.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_param_event.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_set_win_event_mask.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_str_to_wordtab.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_int_wait_first_expose.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_key_hook.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_lib_xpm.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_loop_hook.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_mouse_hook.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_image.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_new_window.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_pixel_put.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_put_image_to_window.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_rgb.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_string_put.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_xpm.c">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx_xpm.c.ok">
-			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/CMakeLists.txt">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/fdf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,3 +1,4 @@
-/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/edit_cache.dir
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/ft.dir
+/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir

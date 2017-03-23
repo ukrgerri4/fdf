@@ -59,7 +59,6 @@ void    validation_value(char *str)
 
     i = 0;
     !ft_isdigit(str[i]) ? ft_error("It was easy. Try harder!\n") : 0;
-    z = ft_atoi(str);
     while (ft_isdigit(str[i]))
         i++;
     if (str[i] == '\0')
@@ -71,7 +70,6 @@ void    validation_value(char *str)
         color = calculate_color(&str[i]);
         while (!(color & 1))
             color >>= 1;
-        ft_printf("Z = %d, Color = %d\n", z, color);
     }
     else
         ft_error("Hahaha, good try...kh-kh I foresaw it...\n");
@@ -89,10 +87,8 @@ void    fill_map(t_map * map, char **line)
         validation_value(line[i]);
         i++;
     }
-    ft_printf("%d\n", i);
     if (!count)
         count = i;
     if (count != i)
         ft_error("Ups! Look like count of elements is not the same, right? Well, don't worry.\n");
-    ft_putarr(line); // delete
 }
