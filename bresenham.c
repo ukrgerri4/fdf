@@ -19,10 +19,10 @@ void drawLine(t_ptr *ptr, int x1, int y1, int x2, int y2)
     const int signX = x1 < x2 ? 1 : -1;
     const int signY = y1 < y2 ? 1 : -1;
     int error = deltaX - deltaY;
-    mlx_pixel_put(ptr->mlx, ptr->win, x2, y2, 0xFFFFFF);
+    my_put_pixel(ptr, x2, y2, 0xFFFFFF);
     while(x1 != x2 || y1 != y2)
     {
-        mlx_pixel_put(ptr->mlx, ptr->win, x1, y1, 0xFFFFFF);
+        my_put_pixel(ptr, x1, y1, 0xFFFFFF);
         const int error2 = error * 2;
         if(error2 > -deltaY)
         {

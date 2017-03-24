@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/nfs/2016/i/ikryvenk/ClionProjects/fdf/bresenham.c" "/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/bresenham.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/fdf/fill_map.c" "/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fill_map.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_general.c" "/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_general.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_map_ptr.c" "/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_map_ptr.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_pix.c" "/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_pix.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/fdf/main.c" "/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/main.c.o"
+  "/home/ukrgerri4/CLionProjects/fdf/bresenham.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/bresenham.c.o"
+  "/home/ukrgerri4/CLionProjects/fdf/fill_map.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fill_map.c.o"
+  "/home/ukrgerri4/CLionProjects/fdf/fun_general.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_general.c.o"
+  "/home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_map_ptr.c.o"
+  "/home/ukrgerri4/CLionProjects/fdf/fun_pix.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_pix.c.o"
+  "/home/ukrgerri4/CLionProjects/fdf/main.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
@@ -19,7 +19,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/nfs/2016/i/ikryvenk/ClionProjects/fdf/cmake-build-debug/CMakeFiles/ft.dir/DependInfo.cmake"
+  "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/ft.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

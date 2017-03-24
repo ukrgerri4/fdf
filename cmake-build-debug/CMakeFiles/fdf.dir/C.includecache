@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/bresenham.c
+/home/ukrgerri4/CLionProjects/fdf/bresenham.c
 fdf.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
-mlx.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/mlx.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
+minilibx/mlx.h
+/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx.h
 libft/libft.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/libft.h
+/home/ukrgerri4/CLionProjects/fdf/libft/libft.h
 ft_printf/ft_printf.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_printf.h
+/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_printf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fill_map.c
+/home/ukrgerri4/CLionProjects/fdf/fill_map.c
 fdf.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/ft_printf/ft_printf.h
+/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_printf.h
 ../libft/libft.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/libft.h
+/home/ukrgerri4/CLionProjects/fdf/libft/libft.h
 stdarg.h
 -
 string.h
@@ -40,25 +40,25 @@ stddef.h
 inttypes.h
 -
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_general.c
+/home/ukrgerri4/CLionProjects/fdf/fun_general.c
 fdf.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_map_ptr.c
+/home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c
 fdf.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fun_pix.c
+/home/ukrgerri4/CLionProjects/fdf/fun_pix.c
 fdf.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/get_next_line.h
+/home/ukrgerri4/CLionProjects/fdf/libft/get_next_line.h
 libft.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/libft.h
+/home/ukrgerri4/CLionProjects/fdf/libft/libft.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/libft.h
+/home/ukrgerri4/CLionProjects/fdf/libft/libft.h
 get_next_line.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/libft/get_next_line.h
+/home/ukrgerri4/CLionProjects/fdf/libft/get_next_line.h
 string.h
 -
 stdlib.h
@@ -66,7 +66,9 @@ stdlib.h
 unistd.h
 -
 
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/main.c
+/home/ukrgerri4/CLionProjects/fdf/main.c
 fdf.h
-/nfs/2016/i/ikryvenk/ClionProjects/fdf/fdf.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
+
+/home/ukrgerri4/CLionProjects/fdf/minilibx/mlx.h
 

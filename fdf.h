@@ -1,20 +1,27 @@
 #ifndef FDF_FDF_H
 #define FDF_FDF_H
 
-# define SIZE_X 800
-# define SIZE_Y 800
+# define SIZE_X 400
+# define SIZE_Y 400
 
-//# include "minilibx/mlx.h"
-# include "mlx.h"
+# include "minilibx/mlx.h"
+//# include "mlx.h"
 # include "libft/libft.h"
 # include "ft_printf/ft_printf.h"
+
+typedef struct  s_coord
+{
+    int x;
+    int y;
+    int z;
+}               t_coord;
 
 typedef struct  s_ptr
 {
     void    *mlx;
     void    *win;
     void    *image;
-    void    *image_ptr;
+    char    *image_ptr;
     int     bpp;
     int     line_size;
     int     ex;
@@ -42,7 +49,7 @@ t_map *make_map_list(void);
 t_ptr *make_ptr_list(void);
 
 // t_pix function
-void	push_back_node(t_map *map, int color, int z);
+void	push_back_node(t_map *map, int x, int y, int z);
 
 // draw function
 void    draw(t_ptr *ptr, t_map *map);
@@ -50,6 +57,7 @@ void    drawLine(t_ptr *ptr, int x1, int y1, int x2, int y2);
 void    drawCircle(t_ptr *ptr, int x0, int y0, int radius);
 
 // general function
+void    my_put_pixel(t_ptr *ptr, int x, int y, int color);
 void    fill_map(t_map * map, char **line);
 void	ft_error(char *str);
 

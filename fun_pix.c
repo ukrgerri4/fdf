@@ -1,16 +1,17 @@
 #include "fdf.h"
 
-void	push_back_node(t_map *map, int color, int z)
+void	push_back_node(t_map *map, int x, int y, int z)
 {
     t_pix *tmp;
 
     if (!(tmp = (t_pix *)malloc(sizeof(t_pix))))
         exit(1);
-    tmp->x = 0;
-    tmp->y = 0;
+    tmp->x = x;
+    tmp->y = y;
     tmp->z = z;
-    tmp->color = color;
+    tmp->color = 0;
     tmp->down = NULL;
+    tmp->right = NULL;
     if (map->tail)
         map->tail->right = tmp;
     map->tail = tmp;

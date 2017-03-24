@@ -6,34 +6,40 @@ CMakeFiles/fdf.dir/bresenham.c.o: ../fdf.h
 CMakeFiles/fdf.dir/bresenham.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/fdf.dir/bresenham.c.o: ../libft/get_next_line.h
 CMakeFiles/fdf.dir/bresenham.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/bresenham.c.o: ../minilibx/mlx.h
 
 CMakeFiles/fdf.dir/fill_map.c.o: ../fdf.h
 CMakeFiles/fdf.dir/fill_map.c.o: ../fill_map.c
 CMakeFiles/fdf.dir/fill_map.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/fdf.dir/fill_map.c.o: ../libft/get_next_line.h
 CMakeFiles/fdf.dir/fill_map.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/fill_map.c.o: ../minilibx/mlx.h
 
 CMakeFiles/fdf.dir/fun_general.c.o: ../fdf.h
 CMakeFiles/fdf.dir/fun_general.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/fdf.dir/fun_general.c.o: ../fun_general.c
 CMakeFiles/fdf.dir/fun_general.c.o: ../libft/get_next_line.h
 CMakeFiles/fdf.dir/fun_general.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/fun_general.c.o: ../minilibx/mlx.h
 
 CMakeFiles/fdf.dir/fun_map_ptr.c.o: ../fdf.h
 CMakeFiles/fdf.dir/fun_map_ptr.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/fdf.dir/fun_map_ptr.c.o: ../fun_map_ptr.c
 CMakeFiles/fdf.dir/fun_map_ptr.c.o: ../libft/get_next_line.h
 CMakeFiles/fdf.dir/fun_map_ptr.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/fun_map_ptr.c.o: ../minilibx/mlx.h
 
 CMakeFiles/fdf.dir/fun_pix.c.o: ../fdf.h
 CMakeFiles/fdf.dir/fun_pix.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/fdf.dir/fun_pix.c.o: ../fun_pix.c
 CMakeFiles/fdf.dir/fun_pix.c.o: ../libft/get_next_line.h
 CMakeFiles/fdf.dir/fun_pix.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/fun_pix.c.o: ../minilibx/mlx.h
 
 CMakeFiles/fdf.dir/main.c.o: ../fdf.h
 CMakeFiles/fdf.dir/main.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/fdf.dir/main.c.o: ../libft/get_next_line.h
 CMakeFiles/fdf.dir/main.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/main.c.o: ../main.c
+CMakeFiles/fdf.dir/main.c.o: ../minilibx/mlx.h
 

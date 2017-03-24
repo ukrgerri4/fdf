@@ -2,8 +2,9 @@ NAME = fdf
 
 WWW = -pipe
 
-FLAGS = -lmlx -framework OpenGL -framework AppKit
+FLAGS = -L/usr/include/../lib -lXext -lX11 -lm
 
+#-lmlx -framework OpenGL -framework AppKit
 #-L/usr/include/../lib -lXext -lX11 -lm
 
 LIB_PATH = libft/
@@ -30,7 +31,7 @@ libmk:
 ft_printfmk:
 	make -C $(FT_PRINTF_PATH)
 
-$(NAME): $(OBJECTS)
+$(NAME): libmk ft_printfmk $(OBJECTS)
 	gcc $(WWW) -o $(NAME) $(OBJECTS) $(LIBX) $(LIBFT) $(FT_PRINTF) $(FLAGS)
 
 %.o: %.c
