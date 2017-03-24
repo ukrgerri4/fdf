@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fdf.dir/fun_pix.c.o"
   "CMakeFiles/fdf.dir/fill_map.c.o"
   "CMakeFiles/fdf.dir/fun_general.c.o"
+  "CMakeFiles/fdf.dir/Debugging.c.o"
   "CMakeFiles/fdf.dir/main.c.o"
   "fdf.pdb"
   "fdf"

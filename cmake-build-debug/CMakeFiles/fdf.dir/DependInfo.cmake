@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/ukrgerri4/CLionProjects/fdf/Debugging.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/Debugging.c.o"
   "/home/ukrgerri4/CLionProjects/fdf/bresenham.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/bresenham.c.o"
   "/home/ukrgerri4/CLionProjects/fdf/fill_map.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fill_map.c.o"
   "/home/ukrgerri4/CLionProjects/fdf/fun_general.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_general.c.o"

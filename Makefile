@@ -1,6 +1,6 @@
 NAME = fdf
 
-WWW = -pipe
+WWW =
 
 FLAGS = -L/usr/include/../lib -lXext -lX11 -lm
 
@@ -22,6 +22,7 @@ OBJECTS = main.o \
             fun_general.o \
             fill_map.o \
             bresenham.o \
+            Debugging.o
 
 all: $(NAME)
 

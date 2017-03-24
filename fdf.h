@@ -1,8 +1,8 @@
 #ifndef FDF_FDF_H
 #define FDF_FDF_H
 
-# define SIZE_X 400
-# define SIZE_Y 400
+# define SIZE_X 500
+# define SIZE_Y 500
 
 # include "minilibx/mlx.h"
 //# include "mlx.h"
@@ -49,16 +49,22 @@ t_map *make_map_list(void);
 t_ptr *make_ptr_list(void);
 
 // t_pix function
-void	push_back_node(t_map *map, int x, int y, int z);
+void    push_back_node(t_map *map, int x, int y, t_pix **start_line);
 
 // draw function
 void    draw(t_ptr *ptr, t_map *map);
-void    drawLine(t_ptr *ptr, int x1, int y1, int x2, int y2);
+void drawLine(t_ptr *ptr, t_pix *p1, t_pix *p2, int color);
 void    drawCircle(t_ptr *ptr, int x0, int y0, int radius);
 
 // general function
+void    coefficient(t_map *map, int k);
+void    write_map(t_ptr *ptr, t_map *map);
+int     count_elem(char **line);
 void    my_put_pixel(t_ptr *ptr, int x, int y, int color);
 void    fill_map(t_map * map, char **line);
 void	ft_error(char *str);
+
+// debugging
+void    put_map(t_map *map);
 
 #endif

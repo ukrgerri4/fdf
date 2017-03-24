@@ -2,7 +2,7 @@
 
 void validation_char(char *str)
 {
-    static char base[19] = "0123456789ABCDEFx,";
+    static char base[25] = "0123456789abcdefABCDEFx,";
     int         i;
 
     i = 0;
@@ -13,7 +13,8 @@ void validation_char(char *str)
 
 int    calculate_color(char *str)
 {
-    static char base[7] = "ABCDEF";
+    static char baseu[7] = "ABCDEF";
+    static char basel[7] = "abcdef";
     int color;
     int i;
 
@@ -23,13 +24,19 @@ int    calculate_color(char *str)
     {
         if (ft_isdigit(str[i]))
         {
-            str[i] = (char) (str[i] - 48);
+            str[i] = (unsigned char) (str[i] - 48);
             color |= str[i];
             color <<= 4;
         }
-        else if (ft_strchr(base, str[i]))
+        else if (ft_strchr(baseu, str[i]))
         {
-            str[i] = (char) (str[i] - 55);
+            str[i] = (unsigned char) (str[i] - 55);
+            color |= str[i];
+            color <<= 4;
+        }
+        else if (ft_strchr(basel, str[i]))
+        {
+            str[i] = (unsigned char) (str[i] - 87);
             color |= str[i];
             color <<= 4;
         }
@@ -37,7 +44,7 @@ int    calculate_color(char *str)
             ft_error("It's not funny anymore! Can you watch what you print?\n");
         i++;
     }
-    return (color);
+    return (color >>= 4);
 }
 
 void    check_right_count(char *str)
@@ -51,52 +58,52 @@ void    check_right_count(char *str)
         ft_error("N-n-nope!Try ones more!\n");
 }
 
-int    validation_value(char *str)
+void    validation_value(t_map *map, char *str)
 {
     int         i;
     int         color;
-    int         z;
 
     i = 0;
     color = 0;
     !ft_isdigit(str[i]) ? ft_error("It was easy. Try harder!\n") : 0;
+    map->tail->z = ft_atoi(str);
     while (ft_isdigit(str[i]))
         i++;
     if (str[i] == '\0')
-        return (0);
+        return ;
     else if (str[i] && (str[i + 1] && (str[i + 2] && str[i] == ',' && str[i + 1] == '0' && str[i + 2] == 'x')))
     {
         check_right_count(&str[i]);
         i += 3;
         color = calculate_color(&str[i]);
-        while (!(color & 1))
-            color >>= 1;
+        map->tail->color = color;
     }
     else
         ft_error("Hahaha, good try...kh-kh I foresaw it...\n");
-    return (color);
 }
 
 void    fill_map(t_map * map, char **line)
 {
-    int         i;
-    int         color;
-    static int  count;
-    static int  y;
+    int             x;
+    static int      y;
+    static int      count;
+    static t_pix    *start_line;
+    t_pix           *tmp;
 
-    i = 0;
-    while (line[i])
-    {
-        validation_char(line[i]);
-        color = validation_value(line[i]);
-        push_back_node(map, i, y, ft_atoi(line[i]));
-        if (color)
-            map->tail->color = color;
-        i++;
-    }
+    x = 0;
+    map->size = count_elem(line);
     if (!count)
-        count = i;
-    if (count != i)
+        count = map->size;
+    if (map->size != count)
         ft_error("Ups! Look like count of elements is not the same, right? Well, don't worry.\n");
+    tmp = start_line;
+    while (line[x])
+    {
+        push_back_node(map, x, y, &tmp);
+        if (x == 0)
+            start_line = map->tail;
+        validation_char(line[x]);
+        validation_value(map, line[x++]);
+    }
     y++;
 }

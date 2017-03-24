@@ -1,6 +1,6 @@
 #include "fdf.h"
 
-void	push_back_node(t_map *map, int x, int y, int z)
+void push_back_node(t_map *map, int x, int y, t_pix **start_line)
 {
     t_pix *tmp;
 
@@ -8,16 +8,20 @@ void	push_back_node(t_map *map, int x, int y, int z)
         exit(1);
     tmp->x = x;
     tmp->y = y;
-    tmp->z = z;
-    tmp->color = 0;
+    tmp->z = 0;
+    tmp->color = 0xFFFFFF;
     tmp->down = NULL;
     tmp->right = NULL;
-    if (map->tail)
+    if (map->tail && (map->tail->x != (map->size - 1)))
         map->tail->right = tmp;
+    if (*start_line)
+    {
+        (*start_line)->down = tmp;
+        (*start_line) = (*start_line)->right;
+    }
     map->tail = tmp;
     if (map->head == NULL)
         map->head = tmp;
-    map->size++;
 }
 
 

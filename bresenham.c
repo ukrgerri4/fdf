@@ -12,17 +12,21 @@ int		mod(int a, int y)
     return (val);
 }
 
-void drawLine(t_ptr *ptr, int x1, int y1, int x2, int y2)
+void drawLine(t_ptr *ptr, t_pix *p1, t_pix *p2, int color)
 {
+    int x1 = p1->x;
+    int y1 = p1->y;
+    int x2 = p2->x;
+    int y2 = p2->y;
     const int deltaX = mod(x2, x1);
     const int deltaY = mod(y2, y1);
     const int signX = x1 < x2 ? 1 : -1;
     const int signY = y1 < y2 ? 1 : -1;
     int error = deltaX - deltaY;
-    my_put_pixel(ptr, x2, y2, 0xFFFFFF);
+    my_put_pixel(ptr, x2, y2, color);
     while(x1 != x2 || y1 != y2)
     {
-        my_put_pixel(ptr, x1, y1, 0xFFFFFF);
+        my_put_pixel(ptr, x1, y1, color);
         const int error2 = error * 2;
         if(error2 > -deltaY)
         {

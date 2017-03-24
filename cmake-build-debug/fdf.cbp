@@ -130,6 +130,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/Debugging.c">
+			<Option target="fdf"/>
+		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/bresenham.c">
 			<Option target="fdf"/>
 		</Unit>

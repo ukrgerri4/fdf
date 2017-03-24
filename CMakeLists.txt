@@ -15,7 +15,7 @@ set(MAC_FLAGS "-lmlx -framework OpenGL -framework AppKit")
 
 set(CMAKE_C_FLAGS ${UBUNTU_FLAGS})
 
-set(SOURCE_FILES bresenham.c fdf.h fun_map_ptr.c fun_pix.c fill_map.c fun_general.c)
+set(SOURCE_FILES bresenham.c fdf.h fun_map_ptr.c fun_pix.c fill_map.c fun_general.c Debugging.c)
 add_executable(fdf ${SOURCE_FILES} main.c)
 
 file(GLOB SOURCES_LIBFT ${LIBFT_PATH}/*.c)

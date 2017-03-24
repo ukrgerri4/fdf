@@ -136,6 +136,33 @@ fdf/fast:
 	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/build
 .PHONY : fdf/fast
 
+Debugging.o: Debugging.c.o
+
+.PHONY : Debugging.o
+
+# target to build an object file
+Debugging.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Debugging.c.o
+.PHONY : Debugging.c.o
+
+Debugging.i: Debugging.c.i
+
+.PHONY : Debugging.i
+
+# target to preprocess a source file
+Debugging.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Debugging.c.i
+.PHONY : Debugging.c.i
+
+Debugging.s: Debugging.c.s
+
+.PHONY : Debugging.s
+
+# target to generate assembly for a file
+Debugging.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Debugging.c.s
+.PHONY : Debugging.c.s
+
 bresenham.o: bresenham.c.o
 
 .PHONY : bresenham.o
@@ -3062,6 +3089,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ft"
 	@echo "... fdf"
+	@echo "... Debugging.o"
+	@echo "... Debugging.i"
+	@echo "... Debugging.s"
 	@echo "... bresenham.o"
 	@echo "... bresenham.i"
 	@echo "... bresenham.s"

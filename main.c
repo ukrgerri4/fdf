@@ -13,6 +13,7 @@ int main(void)
 {
     t_map   *map;
     t_ptr   *ptr;
+
     ptr = make_ptr_list();
     map = make_map_list();
     ptr->mlx = mlx_init();
@@ -22,9 +23,11 @@ int main(void)
     ptr->image_ptr = mlx_get_data_addr(ptr->image, &ptr->bpp, &ptr->line_size, &ptr->ex);
     ptr->bpp /= 8;
 
-    //draw(ptr, map);
+    draw(ptr, map);
+    write_map(ptr, map);
 
-    mlx_put_image_to_window(ptr->mlx, ptr->win, ptr->image, 50, 50);
+    mlx_put_image_to_window(ptr->mlx, ptr->win, ptr->image, 0, 0);
 
     mlx_loop(ptr->mlx);
+    return (0);
 }
