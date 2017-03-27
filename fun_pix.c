@@ -9,7 +9,7 @@ void push_back_node(t_map *map, int x, int y, t_pix **start_line)
     tmp->x = x;
     tmp->y = y;
     tmp->z = 0;
-    tmp->color = 0xFFFFFF;
+    tmp->color = BASIC_COLOR;
     tmp->down = NULL;
     tmp->right = NULL;
     if (map->tail && (map->tail->x != (map->size - 1)))

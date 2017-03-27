@@ -2,7 +2,7 @@
 
 void validation_char(char *str)
 {
-    static char base[25] = "0123456789abcdefABCDEFx,";
+    static char base[26] = "-0123456789abcdefABCDEFx,";
     int         i;
 
     i = 0;
@@ -65,8 +65,10 @@ void    validation_value(t_map *map, char *str)
 
     i = 0;
     color = 0;
-    !ft_isdigit(str[i]) ? ft_error("It was easy. Try harder!\n") : 0;
+    (!ft_isdigit(str[i]) && str[i] != '-') ? ft_error("It was easy. Try harder!\n") : 0;
     map->tail->z = ft_atoi(str);
+    if (str[i] == '-')
+        i++;
     while (ft_isdigit(str[i]))
         i++;
     if (str[i] == '\0')
@@ -104,6 +106,8 @@ void    fill_map(t_map * map, char **line)
             start_line = map->tail;
         validation_char(line[x]);
         validation_value(map, line[x++]);
+        if (map->tail->color == BASIC_COLOR && map->tail->z != 0)
+            map->tail->color = BASIC_COLOR / 7;
     }
     y++;
 }

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/ukrgerri4/CLionProjects/fdf/Debugging.c
+fdf.h
+/home/ukrgerri4/CLionProjects/fdf/fdf.h
+
 /home/ukrgerri4/CLionProjects/fdf/bresenham.c
 fdf.h
 /home/ukrgerri4/CLionProjects/fdf/fdf.h

@@ -49,12 +49,22 @@ void    my_put_pixel(t_ptr *ptr, int x, int y, int color)
     ptr->image_ptr[a + 2] = (unsigned char)(color << 24 >> 24);;
 }
 
-int     set_color(t_pix *pix, t_pix *pix_next)
+int     set_color(t_pix *pix, t_pix *pix_next, int i)
 {
-    if (pix->color == pix_next->color)
-        return (pix_next->color);
-    else
-        return (pix->color);
+    if (i == 1)
+    {
+        if (pix->color == pix_next->color)
+            return (pix->color);
+        else
+            return (BASIC_COLOR);
+    }
+    if (i == 2)
+    {
+        if (pix->color == pix_next->color)
+            return (pix->color);
+        else
+            return (BASIC_COLOR);
+    }
 }
 
 void    write_map(t_ptr *ptr, t_map *map)
@@ -62,15 +72,15 @@ void    write_map(t_ptr *ptr, t_map *map)
     t_pix   *tmp;
     t_pix   *tmp_start;
 
-//    coefficient(map, 1);
+//    coefficient(map, 5);
     tmp = map->head;
     tmp_start = map->head;
     while (tmp)
     {
         if (tmp->right)
-            drawLine(ptr, tmp, tmp->right, set_color(tmp, tmp->right));
+            drawLine(ptr, tmp, tmp->right, set_color(tmp, tmp->right, 1));
         if (tmp->down)
-            drawLine(ptr, tmp, tmp->down, set_color(tmp, tmp->down));
+            drawLine(ptr, tmp, tmp->down, set_color(tmp, tmp->down, 2));
         tmp = tmp->right;
         if (tmp == 0)
         {

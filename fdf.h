@@ -1,8 +1,9 @@
 #ifndef FDF_FDF_H
 #define FDF_FDF_H
 
-# define SIZE_X 500
-# define SIZE_Y 500
+# define SIZE_X 800
+# define SIZE_Y 800
+# define BASIC_COLOR 0xFFFFFF
 
 # include "minilibx/mlx.h"
 //# include "mlx.h"
