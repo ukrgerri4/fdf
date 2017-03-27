@@ -69,6 +69,12 @@ stdlib.h
 -
 unistd.h
 -
+fcntl.h
+-
+sys/types.h
+-
+sys/stat.h
+-
 
 /home/ukrgerri4/CLionProjects/fdf/main.c
 fdf.h

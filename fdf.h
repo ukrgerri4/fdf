@@ -6,7 +6,6 @@
 # define BASIC_COLOR 0xFFFFFF
 
 # include "minilibx/mlx.h"
-//# include "mlx.h"
 # include "libft/libft.h"
 # include "ft_printf/ft_printf.h"
 
@@ -53,8 +52,8 @@ t_ptr *make_ptr_list(void);
 void    push_back_node(t_map *map, int x, int y, t_pix **start_line);
 
 // draw function
-void    draw(t_ptr *ptr, t_map *map);
-void drawLine(t_ptr *ptr, t_pix *p1, t_pix *p2, int color);
+void    draw(t_ptr *ptr, t_map *map, char *file_name);
+void    drawLine(t_ptr *ptr, t_pix *p1, t_pix *p2, int color);
 void    drawCircle(t_ptr *ptr, int x0, int y0, int radius);
 
 // general function

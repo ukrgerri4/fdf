@@ -72,7 +72,7 @@ void    write_map(t_ptr *ptr, t_map *map)
     t_pix   *tmp;
     t_pix   *tmp_start;
 
-//    coefficient(map, 5);
+//    coefficient(map, 20);
     tmp = map->head;
     tmp_start = map->head;
     while (tmp)

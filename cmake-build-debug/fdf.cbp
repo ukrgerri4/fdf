@@ -37,52 +37,6 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ft">
-				<Option output="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/libft.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ft/fast">
-				<Option output="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/libft.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="fdf">
 				<Option output="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
@@ -90,6 +44,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/inc"/>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/libft"/>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/ft_printf"/>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/minilibx"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -113,6 +71,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/inc"/>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/libft"/>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/ft_printf"/>
+					<Add directory="/home/ukrgerri4/CLionProjects/fdf/minilibx"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -142,39 +104,6 @@
 		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fill_map.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_checkparam.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_checkparam_fun.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_p_numb.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_p_string.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_p_wput_count.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_p_wstring.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_p_wstring2.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_printf.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_printf.h">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_put_count.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/ft_printf/ft_types.c">
-			<Option target="ft"/>
-		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_general.c">
 			<Option target="fdf"/>
 		</Unit>
@@ -183,201 +112,6 @@
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_pix.c">
 			<Option target="fdf"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_atoi.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_bzero.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_forearr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_isalnum.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_isalpha.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_isascii.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_isdigit.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_isprint.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_itoa.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_lstadd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_lstdel.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_lstdelone.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_lstiter.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_lstmap.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_lstnew.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memalloc.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memccpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memchr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memcmp.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memcpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memdel.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memmove.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_memset.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_power.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putarr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putchar.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putchar_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putendl.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putendl_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putnbr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putnbr_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putstr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_putstr_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strcat.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strchr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strclr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strcmp.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strcount.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strcpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strdel.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strdup.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strequ.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_striter.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_striteri.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strjoin.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strlcat.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strlen.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strmap.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strmapi.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strncat.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strncmp.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strncpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strnequ.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strnew.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strnstr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strpbrk.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strrchr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strsplit.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strstr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strsub.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_strtrim.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_tolower.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/ft_toupper.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/get_next_line.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/libft/get_next_line.h">
-			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/main.c">
 			<Option target="fdf"/>

@@ -246,7 +246,6 @@ fdf: CMakeFiles/fdf.dir/fun_general.c.o
 fdf: CMakeFiles/fdf.dir/Debugging.c.o
 fdf: CMakeFiles/fdf.dir/main.c.o
 fdf: CMakeFiles/fdf.dir/build.make
-fdf: libft.a
 fdf: CMakeFiles/fdf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable fdf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fdf.dir/link.txt --verbose=$(VERBOSE)

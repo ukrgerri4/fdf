@@ -16,11 +16,14 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../inc"
+  "../libft"
+  "../ft_printf"
+  "../minilibx"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/ft.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
