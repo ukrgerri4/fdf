@@ -87,21 +87,19 @@ void    validation_value(t_map *map, char *str)
 void    fill_map(t_map * map, char **line)
 {
     int             x;
-    static int      y;
-    static int      count;
     static t_pix    *start_line;
     t_pix           *tmp;
 
     x = 0;
     map->size = count_elem(line);
-    if (!count)
-        count = map->size;
-    if (map->size != count)
+    if (!map->string_lenght)
+        map->string_lenght = map->size;
+    if (map->size != map->string_lenght)
         ft_error("Ups! Look like count of elements is not the same, right? Well, don't worry.\n");
     tmp = start_line;
     while (line[x])
     {
-        push_back_node(map, x, y, &tmp);
+        push_back_node(map, x, map->height, &tmp);
         if (x == 0)
             start_line = map->tail;
         validation_char(line[x]);
@@ -109,5 +107,7 @@ void    fill_map(t_map * map, char **line)
         if (map->tail->color == BASIC_COLOR && map->tail->z != 0)
             map->tail->color = BASIC_COLOR / 7;
     }
-    y++;
+    map->height++;
+    free(*line);
+    free(line);
 }

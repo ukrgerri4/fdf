@@ -58,13 +58,14 @@ int     set_color(t_pix *pix, t_pix *pix_next, int i)
         else
             return (BASIC_COLOR);
     }
-    if (i == 2)
+    else
     {
         if (pix->color == pix_next->color)
             return (pix->color);
         else
             return (BASIC_COLOR);
     }
+
 }
 
 void    write_map(t_ptr *ptr, t_map *map)
@@ -72,7 +73,7 @@ void    write_map(t_ptr *ptr, t_map *map)
     t_pix   *tmp;
     t_pix   *tmp_start;
 
-//    coefficient(map, 20);
+    coefficient(map, 2);
     tmp = map->head;
     tmp_start = map->head;
     while (tmp)

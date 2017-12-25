@@ -8,115 +8,113 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option working_dir="/Users/ikryvenk/Study/fdf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option working_dir="/Users/ikryvenk/Study/fdf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ikryvenk/Study/fdf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fdf">
-				<Option output="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option output="/Users/ikryvenk/Study/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ikryvenk/Study/fdf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/inc"/>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/libft"/>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/ft_printf"/>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/minilibx"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/inc"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/libft"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/ft_printf"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/minilibx"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fdf/fast">
-				<Option output="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug"/>
+				<Option output="/Users/ikryvenk/Study/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ikryvenk/Study/fdf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/inc"/>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/libft"/>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/ft_printf"/>
-					<Add directory="/home/ukrgerri4/CLionProjects/fdf/minilibx"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/inc"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/libft"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/ft_printf"/>
+					<Add directory="/Users/ikryvenk/Study/fdf/minilibx"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ikryvenk/Study/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/Debugging.c">
+		<Unit filename="/Users/ikryvenk/Study/fdf/Debugging.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/bresenham.c">
+		<Unit filename="/Users/ikryvenk/Study/fdf/bresenham.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fdf.h">
+		<Unit filename="/Users/ikryvenk/Study/fdf/fdf.h">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fill_map.c">
+		<Unit filename="/Users/ikryvenk/Study/fdf/fill_map.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_general.c">
+		<Unit filename="/Users/ikryvenk/Study/fdf/fun_general.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c">
+		<Unit filename="/Users/ikryvenk/Study/fdf/fun_map_ptr.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/fun_pix.c">
+		<Unit filename="/Users/ikryvenk/Study/fdf/fun_pix.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/main.c">
+		<Unit filename="/Users/ikryvenk/Study/fdf/main.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/fdf/CMakeLists.txt">
+		<Unit filename="/Users/ikryvenk/Study/fdf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

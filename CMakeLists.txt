@@ -6,7 +6,7 @@ link_directories(libft ft_printf minilibx) # part to include libraries
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(UBUNTU_FLAGS "-L minilibx -I minilibx -lmlx_Linux -lXext -lX11 -lm")
+#set(UBUNTU_FLAGS "-L minilibx -I minilibx -lmlx_Linux -lXext -lX11 -lm")
 set(MAC_FLAGS "-lmlx -framework OpenGL -framework AppKit")
 
 set(CMAKE_C_FLAGS)
@@ -22,4 +22,5 @@ set(SOURCE_FILES
 
 add_executable(fdf ${SOURCE_FILES} main.c)
 
-target_link_libraries(fdf libft.a libftprintf.a libmlx.a X11 Xext m) # linkage
+target_link_libraries(fdf libft.a libftprintf.a ${MAC_FLAGS}) # linkage
+#target_link_libraries(fdf libft.a libftprintf.a libmlx.a X11 Xext m) # linkage

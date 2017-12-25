@@ -1,8 +1,8 @@
 #ifndef FDF_FDF_H
 #define FDF_FDF_H
 
-# define SIZE_X 800
-# define SIZE_Y 800
+# define SIZE_X 1200
+# define SIZE_Y 1200
 # define BASIC_COLOR 0xFFFFFF
 
 # include "minilibx/mlx.h"
@@ -16,17 +16,6 @@ typedef struct  s_coord
     int z;
 }               t_coord;
 
-typedef struct  s_ptr
-{
-    void    *mlx;
-    void    *win;
-    void    *image;
-    char    *image_ptr;
-    int     bpp;
-    int     line_size;
-    int     ex;
-}               t_ptr;
-
 typedef struct  s_pix
 {
     int             x;
@@ -39,10 +28,26 @@ typedef struct  s_pix
 
 typedef struct  s_map
 {
+    int     height;
+    int     width;
+    int     string_lenght;
     t_pix	*head;
     t_pix	*tail;
     int		size;
 }               t_map;
+
+typedef struct  s_ptr
+{
+    void    *mlx;
+    void    *win;
+    void    *image;
+    t_map   *map;
+    char    *image_ptr;
+    int     bpp;
+    int     line_size;
+    int     ex;
+}               t_ptr;
+
 
 // t_ptr & t_map function
 t_map *make_map_list(void);

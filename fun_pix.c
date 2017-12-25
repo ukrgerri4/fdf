@@ -4,7 +4,7 @@ void push_back_node(t_map *map, int x, int y, t_pix **start_line)
 {
     t_pix *tmp;
 
-    if (!(tmp = (t_pix *)malloc(sizeof(t_pix))))
+    if (!(tmp = (t_pix *)malloc(sizeof(t_pix) * 1)))
         exit(1);
     tmp->x = x;
     tmp->y = y;

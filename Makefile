@@ -2,7 +2,7 @@ NAME = fdf
 
 WWW =
 
-FLAGS = -L/usr/include/../lib -lXext -lX11 -lm
+FLAGS = -lmlx -framework OpenGL -framework AppKit
 
 #-lmlx -framework OpenGL -framework AppKit
 #-L/usr/include/../lib -lXext -lX11 -lm

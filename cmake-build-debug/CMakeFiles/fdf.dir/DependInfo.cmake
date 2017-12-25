@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ukrgerri4/CLionProjects/fdf/Debugging.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/Debugging.c.o"
-  "/home/ukrgerri4/CLionProjects/fdf/bresenham.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/bresenham.c.o"
-  "/home/ukrgerri4/CLionProjects/fdf/fill_map.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fill_map.c.o"
-  "/home/ukrgerri4/CLionProjects/fdf/fun_general.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_general.c.o"
-  "/home/ukrgerri4/CLionProjects/fdf/fun_map_ptr.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_map_ptr.c.o"
-  "/home/ukrgerri4/CLionProjects/fdf/fun_pix.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_pix.c.o"
-  "/home/ukrgerri4/CLionProjects/fdf/main.c" "/home/ukrgerri4/CLionProjects/fdf/cmake-build-debug/CMakeFiles/fdf.dir/main.c.o"
+  "/Users/ikryvenk/Study/fdf/Debugging.c" "/Users/ikryvenk/Study/fdf/cmake-build-debug/CMakeFiles/fdf.dir/Debugging.c.o"
+  "/Users/ikryvenk/Study/fdf/bresenham.c" "/Users/ikryvenk/Study/fdf/cmake-build-debug/CMakeFiles/fdf.dir/bresenham.c.o"
+  "/Users/ikryvenk/Study/fdf/fill_map.c" "/Users/ikryvenk/Study/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fill_map.c.o"
+  "/Users/ikryvenk/Study/fdf/fun_general.c" "/Users/ikryvenk/Study/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_general.c.o"
+  "/Users/ikryvenk/Study/fdf/fun_map_ptr.c" "/Users/ikryvenk/Study/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_map_ptr.c.o"
+  "/Users/ikryvenk/Study/fdf/fun_pix.c" "/Users/ikryvenk/Study/fdf/cmake-build-debug/CMakeFiles/fdf.dir/fun_pix.c.o"
+  "/Users/ikryvenk/Study/fdf/main.c" "/Users/ikryvenk/Study/fdf/cmake-build-debug/CMakeFiles/fdf.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
